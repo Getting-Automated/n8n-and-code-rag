@@ -1,0 +1,46 @@
+# Core dependencies
+langchain>=0.1.0
+langchain-community>=0.1.0
+langchain-openai>=0.0.5
+langchain-google-community[drive]>=0.0.10
+langchain-googledrive>=0.0.10
+openai>=1.0.0
+
+# Google Drive integration
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.0
+google-api-python-client>=2.0.0
+
+# Database and vector storage
+supabase>=2.0.0
+postgrest>=0.11.0
+
+# Document processing
+pypdf>=3.15.0
+unstructured>=0.10.0
+docx2txt>=0.8
+python-docx>=0.8.11
+
+# OCR and image processing
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# Table extraction from PDFs
+tabula-py>=2.8.0
+camelot-py[cv]>=0.11.0
+pandas>=2.0.0
+ghostscript>=0.7
+
+# Environment and utilities
+python-dotenv>=1.0.0
+requests>=2.30.0
+urllib3>=2.0.0
+
+# Enhanced terminal output
+rich>=13.6.0
+typer>=0.9.0
+pyfiglet>=0.8.post1
+colorama>=0.4.6
+humanize>=4.8.0
+tabulate>=0.9.0 
